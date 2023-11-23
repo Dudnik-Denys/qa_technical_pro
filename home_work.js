@@ -1,7 +1,37 @@
-var prompt = require('prompt-sync')()
+'number' + 3 + 3
 
-var user_number = prompt('Enter your number: ')
+null + 3
 
-var result = isNaN(user_number) ? 'Type Error: Please, enter a number' : Number(user_number) % 2 === 0 ? 'even number' : 'odd number'
+5 && "qwerty"
 
-console.log(`Number "${user_number}" - ${result}`)
++'40' + +'2' + "hillel";
+
+'10' - 5 === 6;
+
+true + false
+
+'4px' - 3
+
+'4' - 3
+
+'6' + 3 ** 0;
+
+12 / '6'
+
+'10' + (5 === 6);
+
+null == ''
+
+3 ** (9 / 3);
+
+!!'false' == !!'true'
+
+0 || '0' && 1
+
+(+null == false) < 1;
+
+false && true || true
+
+false && (false || true);
+
+(+null == false) < 1 ** 5;
