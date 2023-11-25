@@ -5,3 +5,7 @@ function pow(x, y) {
     }
     return result
 }
+
+
+let solution = pow(2, 3)
+console.log(solution)

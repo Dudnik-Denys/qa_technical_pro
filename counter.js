@@ -5,3 +5,7 @@ function sum_exclude_number(start, finish, exclude) {
     }
     return result
 }
+
+
+let solution = sum_exclude_number(0, 100, 3)
+console.log(solution)

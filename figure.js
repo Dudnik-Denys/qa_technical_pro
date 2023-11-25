@@ -9,3 +9,7 @@ function drawTrinagle(counter, symbol) {
     }
     return result
 }
+
+
+let solution = drawTrinagle(5, '*')
+console.log(solution)
