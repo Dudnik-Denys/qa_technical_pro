@@ -2,7 +2,6 @@ var prompt = require('prompt-sync')()
 
 var measure = prompt('Вкажіть одиницю вмиіру яку треба перевести, це можуть бути "кілометри", "години", "кілограми": ')
 var count = prompt('Вкажіть значення: ')
-console.log(measure)
 
 switch (measure) {
     case 'години':
