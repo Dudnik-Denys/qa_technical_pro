@@ -25,7 +25,7 @@ var services = {
                 minimum = cost
             }
         }
-        return minimum
+        return this.prices.length > 0 ? minimum : 0
     },
     maxPrice: function () {
         maximum = 0
